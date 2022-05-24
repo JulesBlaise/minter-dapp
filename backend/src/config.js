@@ -109,7 +109,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'polygon'; // only rinkeby or polygon
+const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'TRUE ITALIAN PIZZA ARMY';
@@ -130,7 +130,7 @@ const ROYALTY_SHARE = 5000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0xf271F17b2BffeCEE59F37a2D78664E07CBA47942"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xf271F17b2BffeCEE59F37a2D78664E07CBA47942"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x77BA47950961CBac96639F57ecf2dcB63C371718"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0x1a5D009706c163bE2B0C6eb2727f9975fc1F4D8E"; // If you want to manually include it
