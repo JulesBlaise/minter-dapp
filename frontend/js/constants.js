@@ -1,5 +1,5 @@
-const contractAddress = "0x1a5D009706c163bE2B0C6eb2727f9975fc1F4D8E"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0xF0858046548C7bA9fda47377e841dD55772eaC53"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the True Italian Pizza Army!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
