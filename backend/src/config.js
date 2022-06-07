@@ -117,7 +117,7 @@ const CONTRACT_SYMBOL = 'TIPA';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xf271F17b2BffeCEE59F37a2D78664E07CBA47942';
 const TREASURY_ADDRESS = '0xf271F17b2BffeCEE59F37a2D78664E07CBA47942';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 5000 // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 150; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
